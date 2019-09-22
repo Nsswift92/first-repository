@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/contacts.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Общий контейнер -->
+  <section class="container">
+    <!-- меню начало-->
+    <section class="sidebar">
+      <nav class="menu">
+        <div class="logo">
+          <img src="images/logo.png" alt="">
+        </div>
+        
+          <ul class="nav navigation">
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="memo.html">Памятка</a></li>
+              <li><a href="servis.html">Сервисы</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+              <li><a href="route.html">Маршруты</a>
+              <ul>
+                  <li><a href="route1.html">Тбилиси и окресности</a></li>
+                  <li><a href="route2.html">Кутаиси и древняя Имертия</a></li>
+                  <li><a href="route3.html">Тбилиси, Кахетия, Военно-Грузинская дорога, Сванетия</a></li>
+                  <li><a href="route4.html">Тбилиси, Военно-Грузинская дорога, Ахалтихе, Батуми</a></li>
+                </ul>
+              </li>
+            </ul>
+      </nav>
+      
+  </section>
+      <!-- меню конец -->
+      <!-- контейнер с шапкой и контентом -->
+      <div class="container_content">
+        <!-- шапка начало -->
+        <header>
+            <img src="images/head.jpg" alt="Контакты" class="head_image">
+        </header>
+        <!-- шапка конец -->
+        <!-- контент начало -->
+        <main>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2682.222671527833!2d28.690033383839214!3d55.512943449868125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x46c48fe4812069cb%3A0xcb074f19f78bf91!2z0YPQu9C40YbQsCDQldGA0L7QvdGM0LrQviAxMSwg0J3QsNCy0LDQv9C-0LvQsNGG0Lo!3m2!1d55.5128412!2d28.691075899999998!5e0!3m2!1sru!2sby!4v1565979878500!5m2!1sru!2sby" width="900" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <address class="contact">
+            <div class="contacts">
+                <h2>Адрес:</h2>
+                <p>г.Новополоцк, ул.Еронько, д. 11 <br> ТЦ "10 Квартал" пав. 210</p>
+                <h3>Контакты:</h3>
+                <p>тел. +375 (29) 596-80-58 <br> Время работы: ежедневно 9:00 - 20:00</p>
+            </div>
+            <div class="form-container">
+              <form action="" method="post" id="form" novalidate="novalidate">
+                <h2>Связаться с нами</h2>
+                <div class="form-group">
+                  <label for="name">Имя:</label>
+                  <input class="form-control" type="text" name="name" minlength="2" required>
+                </div>
+                <div class="form-group">
+                  <label for="age">Email:</label>
+                  <input class="form-control" type="text" name="age" minlength="2" required>
+                </div>
+                <div class="form-group">
+                  <label for="telephone">Телефон:</label>
+                  <input class="form-control" type="text" name="telephone" id="phone" required>
+                </div>
+                <div class="form-group">
+                   <input class="submit form-control" type="submit" name="submit" value="Отправть">
+                </div>
+              </form>
+            </div>
+          </div>
+        </address>
+        </main>
+        <!-- контент конец -->
+      </div>
+    </section>
+      <!-- контейнер с шапкой и контентом конец-->
+      <footer>
+        <address>
+          <p>©2019 Anastasia Stryzhova <br>
+            Email: <a href="https://mail.ru">nastyalalatada@mail.ru</a> <br>
+        </address>
+        <div class="box">
+          <a href="https://www.facebook.com/NEWSGEORGIA/" class="figure figure_fb"></a>
+          <a href="https://www.youtube.com/watch?v=0xluX6E2tKo" class="figure figure_yt"></a>
+          <a href="https://www.instagram.com/georgialand/" class="figure figure_ins"></a>
+          <a href="https://t.me/tbilissimo" class="figure figure_tg"></a>
+        </div>
+      </footer>
+</body>
+</html>
